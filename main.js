@@ -1,5 +1,6 @@
-document.write("Mohammad Abdur Rahman Riad");
-var value1 = 5;
-var value2 = 10;
+document.write("</br>");
 
-document.write(value1+value2);
+var text = prompt("Enter Your Text: ");
+
+document.write("Number of Character in "+text+" is "+text.length+"</br>");
+document.write("Upercase of Your String is: "+text.toUpperCase()+"</br>");
